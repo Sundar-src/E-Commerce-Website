@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopFable | E-Commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <!-------------------link for icons --------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-------------------- link for swiper-------------------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo"><i class='bx bxs-t-shirt'></i>Shop<span>Fable</span></a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#new">New Arrival</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+
+    <div class="header-icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-search-alt-2' id="search-icon"></i>
+      <i class='bx bx-cart-alt' id="cart-icon"></i>
+      <i class='bx bx-user' id="user-icon"></i>
+    </div>
+
+    <div class="search-box">
+      <input type="search" name="" id="" placeholder="Search Here">
+    </div>
+
+    <div class="cart">
+      <div class="box">
+        <img src="Assets/New8.jpg" alt="" >
+        <div class="text">
+          <h3>T-Shirt 14A</h3>
+          <span>$50.05</span>
+          <span>x1</span>
+        </div>
+        <i class='bx bxs-trash-alt'></i>
+      </div>
+
+      <div class="box">
+        <img src="Assets/New5.jpg" alt="">
+        <div class="text">
+          <h3>Dress</h3>
+          <span>$80.05</span>
+          <span>x1</span>
+        </div>
+        <i class='bx bxs-trash-alt'></i>
+      </div>
+
+      <h2>Total: $100.10</h2>
+      <a href="#" class="btn">Checkout</a>
+    </div>
+    <!----------------------user-------------------------->
+    <div class="user">
+      <h2>Login Now</h2>
+      <input type="email" placeholder="Enter Your Email">
+      <input type="password" name="" id="" placeholder="Password">
+      <input type="submit" value="Login" class="login-btn">
+      <p>Forget Password <a href="#">Reset Now</a></p>
+      <p>Don't have account <a href="#">Create One</a></p>
+    </div>
+
+  </header>
+  <!------------------------Home------------------------>
+  <section class="home" id="home">
+    <div class="home-text">
+      <span>Shop Now</span>
+      <h1>New Arrival of <br> Fresh Products</h1>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="home-img"> 
+      <img src="Assets/bg.jpg" alt="">
+    </div>
+  </section>
+  <!-----------------new arrival--------------- -->
+  <section class="new" id="new">
+    <div class="heading">
+      <h1>New <span>Arrival</span></h1>
+    </div>
+    <div class="swiper new-arrival">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="Assets/New2.jpg" alt="" height="200" width="200">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="Assets/New3.jpg" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="Assets/New5.jpg" alt="" >
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="Assets/New7.jpg" alt="" >
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="Assets/New9.jpg" alt="" >
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="Assets/New10.jpg" alt="" >
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------------product ------------------------->
+  <section class="product" id="products">
+    <div class="heading">
+      <h1>Our <span>Products</span></h1>
+    </div>
+    <div class="product-container">
+      <div class="box">
+        <img src="Assets/Product1.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product2.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product3.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product4.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product5.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product6.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product7.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product8.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product9.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Assets/Product10.jpg" alt="" height="300">
+        <div class="content">
+          <h2>T-shirts 14A</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt'></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------------reviews ---------------------->
+  <section class="reviews" id="reviews">
+    <div class="heading">
+      <h1>Our <span>Customer's</span></h1>
+    </div>
+    <div class="reviews-container">
+      <div class="box">
+        <img src="Assets/Customer1.jpg" alt="">
+        <h2>Emily Parker</h2>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Absolutely love the quality of the products! Fast shipping and excellent customer service. Will definitely shop here again.</p>
+        <p>August 30, 2024 | Canada</p>
+        
+      </div>
+      <div class="box">
+        <img src="Assets/Customer2.jpg" alt="">
+        <h2>Olivia Bennett</h2>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Amazing experience! The items were exactly as described, and the support team was very helpful. Highly recommend.</p>
+        <p>May 30, 2024 | South Korea</p>
+      </div>
+      <div class="box">
+        <img src="Assets/Customer3.jpg" alt="">
+        <h2>James Carter</h2>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Overall, a good experience. The delivery was a bit delayed, but the product quality made up for it.</p>
+        <p>March 24, 2024 | Japan</p>
+      </div>
+    </div>
+
+  </section>
+  <!-----------------------footer ------------------>
+  <section class="footer">
+    <div class="footer-box">
+      <h2>ShopFable</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, voluptatum.</p>
+
+      <div class="social">
+        <a href=""><i class='bx bxl-facebook'></i></a>
+        <a href=""><i class='bx bxl-twitter'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <a href=""><i class='bx bxl-gmail'></i></a>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h3>Support</h3>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Help & Support</a></li>
+      <li><a href="#">Return Policy</a></li>
+      <li><a href="#">Trem of Uses</a></li>
+      <li><a href="#">FAQ</a></li>
+    </div>
+    <div class="footer-box">
+      <h3>Our Branches</h3>
+      <li><a href="#">India</a></li>
+      <li><a href="#">South korea</a></li>
+      <li><a href="#">Japan</a></li>
+      <li><a href="#">Germany</a></li>
+      <li><a href="#">Canada</a></li>
+    </div>
+    <div class="footer-box">
+      <h3>Payment Method</h3>
+      <div class="payment">
+        <i class='bx bxl-visa'></i>
+        <i class='bx bxl-mastercard'></i>
+        <i class='bx bxl-paypal'></i>
+        <i class='bx bxs-credit-card-front'></i>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------------------copyright ---------------------------->
+  <div class="copyright">
+    <p>&#169; Sundar Chaudhary All Right Reserved.</p>
+  </div>
+
+
+  <!-------------swiper js --------------------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
